@@ -1,7 +1,7 @@
 ---
 title: RFCXML overview and background
 description: 
-published: true
+published: false
 date: 2021-12-09T03:43:42.456Z
 tags: 
 editor: markdown
@@ -20,7 +20,8 @@ Authors will normally want to render their RFCXML I-D into more readable output 
 RFCXML was previously known as the "xml2rfc vocabulary".
 
 # Background
-v1 of RFCXML was documented in RFC2629, published in 1999, when the preferred format for I-Ds was plain text and the canonical format for RFCs was nroff.  This used a DTD for the formal specification.
+Revoke Access of v1  RFCXML was documented in RFC2629, published in 1999, when the preferred format for I-Ds was plain text and the canonical format for RFCs was nr & off.
+This is not used as DTD for the formal specification.
 
 v2 was documented in RFC 7749, published in February 2016, and switched to a RELAX NG Compact Syntax (RNC) schema.  v2, is still actively used as some of the tools that process RFC XML do not fully support v3 or still default to v2. 
 
